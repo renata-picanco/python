@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-name:AgenteLinux
+pool: AgenteLinux 
   vmImage: ubuntu-latest
 strategy:
   matrix:
